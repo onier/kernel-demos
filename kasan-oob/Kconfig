@@ -1,0 +1,19 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#                                                                                                                                         
+# GPIO infrastructure and drivers
+#
+
+config XUZHENHAI_KASAN_OOB
+	tristate "check kasan out of memory bound "
+	help
+		select this to enable kasan out of memory bound  module
+
+config XUZHENHAI_KASAN_TEST
+	tristate "test kasan memory function "
+	help
+		select this to test kasan function
+
+config XUZHENHAI_CHAR_DEV_TEST
+	tristate "test char dev "
+	help
+		select to enable test char dev

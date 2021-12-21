@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: GPL-2.0
+menu "xuzhenhai test code"                                                                                                                     
+source "drivers/xuzhenhai/hello/Kconfig"
+source "drivers/xuzhenhai/kasan-oob/Kconfig"
+endmenu

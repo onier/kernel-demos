@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: GPL-2.0-only
+#                                                                                                                                         
+# GPIO infrastructure and drivers
+#
+
+config PUP_HELLO_WORLD_MODULE
+	tristate "pup hello world module "
+	help
+		select this to enable pup hello work module
